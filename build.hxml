@@ -1,0 +1,7 @@
+-lib unit2
+-cp src/main/haxe
+-cp src/test/haxe
+-neko out/test.n
+-resource src/test/resources/child.html@child
+-resource src/test/resources/parent.html@parent
+-main TestMain
