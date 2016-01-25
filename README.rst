@@ -1,10 +1,19 @@
-Harfang extension - Views
-=========================
+Harfang extension - View
+========================
 
 This extension is used to facilitate the usage of hierarchical views with Haxe's
 provided template system.
 
 Although this utility bears Harfang's name, it can be used outside of it.
+
+Installing
+----------
+
+The library can either be obtained by source on Github or by using Haxelib:
+
+.. code:: sh
+
+    haxelib install Harfang-ext-view
 
 Usage
 -----
@@ -53,7 +62,7 @@ Sample Haxe code to build the view
         
     }
 
-Calling the *render* method on an object of type *World* would return:
+Calling the *render* method on *childView* would produce the following:
 
 .. code:: html
 

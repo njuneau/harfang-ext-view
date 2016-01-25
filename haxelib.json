@@ -1,0 +1,11 @@
+{
+    "name" : "Harfang-ext-view",
+    "url" : "https://github.com/njuneau/harfang-ext-view",
+    "license" : "BSD",
+    "tags" : ["extension", "html", "ui"],
+    "description" : "A small wrapper around Haxe's templating system",
+    "version" : "1.0.0",
+    "classPath" : "src/main/haxe",
+    "releasenote" : "Initial release",
+    "contributors" : ["njuneau"]
+}
